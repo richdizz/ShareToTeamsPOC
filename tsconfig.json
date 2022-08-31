@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "outDir": "./wwwroot/js/",
+      "sourceMap": true,
+      "noImplicitAny": false,
+      "module": "commonjs",
+      "target": "es5",
+      "lib": ["es5", "es6", "dom"],
+      "jsx": "react",
+      "moduleResolution": "node",
+      "esModuleInterop": true
+    },
+    "include": [
+      "./wwwroot/src/**/*"
+    ]
+  }
